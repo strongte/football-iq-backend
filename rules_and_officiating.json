@@ -1,1 +1,64 @@
+{
+  "rules": [
+    {
+      "title": "Dead Ball Fouls",
+      "type": "foul",
+      "summary": "Infractions that occur while the ball is not in play (after a whistle, before a snap).",
+      "examples": [
+        "False start",
+        "Delay of game",
+        "Encroachment",
+        "Unsportsmanlike conduct (post-play)"
+      ],
+      "administration": "Penalties are enforced from the succeeding spot and do not cancel the down.",
+      "new": false
+    },
+    {
+      "title": "Live Ball Fouls",
+      "type": "foul",
+      "summary": "Infractions that occur during the play while the ball is live.",
+      "examples": [
+        "Holding",
+        "Pass interference",
+        "Face mask",
+        "Illegal block in the back"
+      ],
+      "administration": "Penalties are enforced from the previous spot, spot of the foul, or end of run depending on context.",
+      "new": false
+    },
+    {
+      "title": "Unsportsmanlike Conduct",
+      "type": "foul",
+      "summary": "Any non-physical action by players or coaches that shows poor sportsmanship.",
+      "examples": [
+        "Taunting",
+        "Yelling at an official",
+        "Throwing equipment",
+        "Using profane language"
+      ],
+      "administration": "15-yard penalty. Two in one game = disqualification.",
+      "new": true
+    },
+    {
+      "title": "Coach Tip: Working With Officials",
+      "type": "coaching",
+      "summary": "Advice from a 14-year veteran referee on how to be respected by the crew.",
+      "quote": "Coach, have you ever seen an official change a call after someone screams at them?",
+      "tips": [
+        "Know the rules better than your opponents",
+        "Ask calm, rule-based questions — not emotional ones",
+        "Call a timeout to dispute a rule application (not judgment)",
+        "Respect = attention"
+      ],
+      "new": true
+    },
+    {
+      "title": "What Color is Your Rule Book?",
+      "type": "coaching",
+      "summary": "NFHS rulebooks are always green. This phrase reminds coaches to study the rules, not argue emotions.",
+      "lesson": "If you can cite the rule and its misapplication — and you know the color of the rulebook — you’ve earned a listen.",
+      "new": true
+    }
+  ]
+}
 
