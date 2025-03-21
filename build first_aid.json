@@ -1,1 +1,58 @@
+{
+  "topics": [
+    {
+      "id": "sprain-ankle",
+      "title": "Ankle Sprain",
+      "category": "injury",
+      "symptoms": ["Swelling", "Pain when bearing weight", "Bruising"],
+      "first_aid": [
+        "Stop activity immediately",
+        "Apply ice (15-20 minutes every hour for first 24 hours)",
+        "Use compression wrap",
+        "Elevate the ankle above heart level"
+      ],
+      "recovery": [
+        "Rest for several days depending on severity",
+        "Gradually reintroduce movement",
+        "Strengthen with balance and mobility exercises"
+      ],
+      "disclaimer": "This is first aid only. Prolonged pain, instability, or swelling should be evaluated by a licensed medical professional."
+    },
+    {
+      "id": "nosebleed",
+      "title": "Nosebleed",
+      "category": "incident",
+      "symptoms": ["Bleeding from one or both nostrils"],
+      "first_aid": [
+        "Keep the child calm and seated upright",
+        "Lean forward slightly — do not tilt head back",
+        "Pinch the nostrils together for 10-15 minutes",
+        "Apply a cold compress to the nose bridge"
+      ],
+      "recovery": [
+        "Avoid blowing nose for a few hours",
+        "Use humidifier or saline spray if recurring"
+      ],
+      "disclaimer": "This is first aid only. Seek medical attention if bleeding is heavy or doesn’t stop after 20 minutes."
+    },
+    {
+      "id": "muscle-cramp",
+      "title": "Muscle Cramp",
+      "category": "injury",
+      "symptoms": ["Sudden tightness", "Sharp pain", "Visible muscle contraction"],
+      "first_aid": [
+        "Gently stretch the affected muscle",
+        "Massage the area lightly",
+        "Apply heat if not immediately after activity",
+        "Ensure hydration with water or electrolytes"
+      ],
+      "recovery": [
+        "Monitor for recurring cramps",
+        "Stretch regularly before activity",
+        "Maintain hydration"
+      ],
+      "disclaimer": "This is first aid only. Persistent cramps may signal dehydration or mineral imbalance and should be evaluated by a healthcare professional."
+    }
+  ]
+}
 
