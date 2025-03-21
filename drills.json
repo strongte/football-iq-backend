@@ -3,7 +3,6 @@
     {
       "type": "warmup",
       "title": "Arm Circles",
-      "age_group": "8-12",
       "steps": [
         "Stand with feet shoulder-width apart.",
         "Extend arms out to the sides.",
@@ -11,24 +10,26 @@
         "Switch to backward circles for 15 seconds."
       ],
       "video_url": "https://www.youtube.com/watch?v=U5LtNciLz1k",
-      "new": false
+      "new": false,
+      "age_group": "8-9",
+      "skill_level": "beginner"
     },
     {
       "type": "warmup",
       "title": "High Knees",
-      "age_group": "8-12",
       "steps": [
         "Stand tall with feet hip-width apart.",
         "Run in place while lifting knees to waist height.",
         "Keep core engaged and move arms naturally."
       ],
       "video_url": "https://www.youtube.com/watch?v=8opcQdC-V-U",
-      "new": false
+      "new": false,
+      "age_group": "8-9",
+      "skill_level": "beginner"
     },
     {
       "type": "warmup",
       "title": "World's Greatest Stretch",
-      "age_group": "8-12",
       "tags": ["injury-prevention"],
       "steps": [
         "Start in a lunge position with right foot forward.",
@@ -37,12 +38,13 @@
         "Do 5 reps per side."
       ],
       "video_url": "https://www.youtube.com/watch?v=F4S1Fyh4HAg",
-      "new": true
+      "new": true,
+      "age_group": "12-13",
+      "skill_level": "advanced"
     },
     {
       "type": "warmup",
       "title": "Inchworm Stretch",
-      "age_group": "8-12",
       "tags": ["injury-prevention", "core-activation"],
       "steps": [
         "Stand tall, reach down and touch toes.",
@@ -51,12 +53,13 @@
         "Repeat for 30 seconds."
       ],
       "video_url": "https://www.youtube.com/watch?v=lYlNnLazCwA",
-      "new": true
+      "new": true,
+      "age_group": "10-11",
+      "skill_level": "intermediate"
     },
     {
       "type": "warmup",
       "title": "Glute Bridge",
-      "age_group": "8-12",
       "tags": ["injury-prevention", "hip-activation"],
       "steps": [
         "Lie on your back with knees bent, feet flat.",
@@ -65,26 +68,28 @@
         "Repeat for 10 reps."
       ],
       "video_url": "https://www.youtube.com/watch?v=m2Zx-57cSok",
-      "new": true
+      "new": true,
+      "age_group": "12-13",
+      "skill_level": "advanced"
     }
   ],
   "conditioning": [
     {
       "type": "conditioning",
       "title": "Shuttle Runs",
-      "age_group": "8-12",
       "steps": [
         "Set two cones 10 yards apart.",
         "Sprint from one cone to the other and back.",
         "Repeat for 30 seconds with rest intervals."
       ],
       "video_url": "https://www.youtube.com/watch?v=j2e1YjzXz-A",
-      "new": false
+      "new": false,
+      "age_group": "10-11",
+      "skill_level": "intermediate"
     },
     {
       "type": "conditioning",
       "title": "Lateral Skater Hops",
-      "age_group": "8-12",
       "steps": [
         "Start in a half-squat position.",
         "Jump laterally to the right, landing on the right foot.",
@@ -92,24 +97,26 @@
         "Repeat for 30 seconds."
       ],
       "video_url": "https://www.youtube.com/watch?v=FUX6Pz8vV0s",
-      "new": true
+      "new": true,
+      "age_group": "10-11",
+      "skill_level": "intermediate"
     },
     {
       "type": "conditioning",
       "title": "Jumping Jacks",
-      "age_group": "8-12",
       "steps": [
         "Start with feet together and arms at sides.",
         "Jump while spreading feet and raising arms overhead.",
         "Return to starting position and repeat for 30 seconds."
       ],
       "video_url": "https://www.youtube.com/watch?v=c4DAnQ6DtF8",
-      "new": false
+      "new": false,
+      "age_group": "8-9",
+      "skill_level": "beginner"
     },
     {
       "type": "conditioning",
       "title": "Bear Crawls",
-      "age_group": "8-12",
       "steps": [
         "Start on hands and feet (not knees), hips up.",
         "Crawl forward using opposite hand and foot.",
@@ -117,7 +124,9 @@
         "Repeat 2-3 times."
       ],
       "video_url": "https://www.youtube.com/watch?v=gMaB-fG4u4g",
-      "new": false
+      "new": false,
+      "age_group": "12-13",
+      "skill_level": "advanced"
     }
   ]
 }
