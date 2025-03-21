@@ -1,1 +1,51 @@
+# Prepare a sample coach_resources.json structure with realistic coaching articles
+coach_resources = {
+    "resources": [
+        {
+            "title": "How to Coach Without Yelling",
+            "category": "Psychology",
+            "summary": "Learn effective communication techniques to motivate young athletes without raising your voice.",
+            "tags": ["psychology", "communication", "youth"],
+            "url": "https://www.positivecoach.org/resources/articles/how-to-coach-without-yelling/",
+            "new": True
+        },
+        {
+            "title": "Making Practice Fun for Kids",
+            "category": "Team Culture",
+            "summary": "Practical tips for turning drills into games, keeping kids engaged, and creating a culture of joy.",
+            "tags": ["fun", "engagement", "retention"],
+            "url": "https://youthfootballonline.com/fun-youth-football-practice-drills/",
+            "new": True
+        },
+        {
+            "title": "Building Confidence Through Drills",
+            "category": "Self Esteem",
+            "summary": "Use well-designed drills to give young athletes small wins that build lasting confidence.",
+            "tags": ["confidence", "drills", "youth"],
+            "url": "https://coachfore.org/articles/build-confidence-drills/",
+            "new": False
+        },
+        {
+            "title": "5 Tips for Communicating with Parents",
+            "category": "Leadership",
+            "summary": "Strong parent communication improves buy-in, teamwork, and overall program success.",
+            "tags": ["parents", "communication", "youth"],
+            "url": "https://www.coachup.com/nation/articles/tips-for-communicating-with-parents",
+            "new": False
+        },
+        {
+            "title": "Coach’s Note: Green Rule Book",
+            "category": "Working With Officials",
+            "summary": "A story from a 14-year veteran official. How to be heard, how not to be dismissed.",
+            "tags": ["officials", "respect", "rules"],
+            "url": "",
+            "quote": "What color is your rule book?",
+            "lesson": "Know the rules. Know the remedy. Be calm, be prepared. And earn respect the right way.",
+            "new": True
+        }
+    ]
+}
+
+# Output preview
+json.dumps(coach_resources, indent=2)[:1500]
 
