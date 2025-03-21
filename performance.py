@@ -2,6 +2,7 @@
 from flask import Blueprint, jsonify, request
 import json
 import os
+from performance_scoring import score_player
 
 PERF_FILE = "performance_data.json"
 performance_routes = Blueprint('performance_routes', __name__)
@@ -29,14 +30,17 @@ def get_all_results():
 @performance_routes.route('/performance', methods=['POST'])
 def add_result():
     new_entry = request.get_json()
+    new_entry = score_player(new_entry)  # Auto-score the player
     data = load_data()
     data['results'].append(new_entry)
     save_data(data)
-    return jsonify({"message": "Result added", "status": "success"})
+    return jsonify({"message": "Result added", "status": "success", "score": new_entry.get("score")})
 
 @performance_routes.route('/performance/<player_id>', methods=['GET'])
 def get_player_results(player_id):
     data = load_data()
     results = [r for r in data['results'] if r.get("player_id") == player_id]
     return jsonify(results)
+
+  
 
